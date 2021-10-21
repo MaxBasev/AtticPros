@@ -1,0 +1,105 @@
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 640px;
+    }
+    .title {
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+    .cover {
+        &__main {
+            &_reviews {
+                &-stars {
+                    margin-right: 20px;
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+            &_title {
+                font-size: 58px;
+            }
+            &_types {
+                &-item {
+                    font-size: 20px;
+                    svg {
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+        &__cards {
+            &_item {
+                width: 48%;
+                &-title {
+                    font-size: 20px;
+                }
+                &-descr {
+                    font-size: 18px;
+                }
+            }
+        }
+        &__guy {
+            display: none;
+        }
+    }
+    .contractor {
+        &__wrapper {
+            padding: 120px 0;
+        }
+        &__item {
+            width: 35%;
+            padding: 20px 10px;
+        }
+    }
+    .advantages {
+        &__main {
+            padding-top: 120px;
+            &_buttons {
+                .btn-fill {
+                    margin-right: 10px;
+                }
+            }
+        }
+        &__img {
+            width: 100vw;
+            margin-left: calc((100vw - 100%) / 2 * (-1));
+        }
+    }
+    .faq {
+        &__wrapper {
+            padding: 120px 0;
+        }
+        &__questions {
+            &_descr {
+                font-size: 18px;
+            }
+        }
+    }
+    .main-question {
+        &__wrapper {
+            padding: 120px 0;
+        }
+        &__title {
+            font-size: 48px;
+        }
+        &__descr {
+            font-size: 20px;
+            margin-bottom: 70px;
+        }
+        &__buttons {
+            .btn {
+                margin-right: 10px;
+            }
+        }
+    }
+    .prefooter {
+        &__wrapper {
+            padding-top: 100px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+    }
+}

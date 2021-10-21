@@ -1,0 +1,53 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .menu {
+        &__wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        &__right {
+            &_phone-link {
+                margin: 0;
+                margin-right: 16px;
+                line-height: 1;
+            }
+        }
+    }
+    .cover {
+        &__wrapper {
+            padding-bottom: 70px;
+        }
+        &__main {
+            &_wrapper {
+                min-width: 760px;
+            }
+            &_title {
+                font-size: 72px;
+            }
+            &_types {
+                min-width: 560px;
+                &-item {
+                    font-size: 24px;
+                }
+            }
+            &_descr {
+                font-size: 22px;
+                max-width: 740px;
+            }
+        }
+        &__cards {
+            &_item {
+                &-title {
+                    font-size: 18px;
+                }
+                &-descr {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,176 @@
+.cover {
+    background-color: $color-violet;
+    min-height: 100vh;
+    position: relative;
+    .container {
+        position: relative;
+        z-index: 10;
+    }
+    &__wrapper {
+        position: relative;
+        z-index: 10;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 130px 0 60px;
+    }
+    &__main {
+        &_wrapper {
+            width: 100%;
+            margin-bottom: 100px;
+        }
+        &_reviews {
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 20px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            &-stars {
+                display: inline-block;
+                margin-right: 10px;
+                svg {
+                    width: 26px;
+                    height: 26px;
+                    &:nth-child(1) {
+                        animation-delay: 2s;
+                    }
+                    &:nth-child(2) {
+                        animation-delay: 2.1s;
+                    }
+                    &:nth-child(3) {
+                        animation-delay: 2.2s;
+                    }
+                    &:nth-child(4) {
+                        animation-delay: 2.3s;
+                    }
+                    &:nth-child(5) {
+                        animation-delay: 2.4s;
+                    }
+                }
+            }
+            // @-webkit-keyframes flash {
+            //     0%,50%, to{opacity:1}
+            //     25%,75% {opacity:0}
+            // }
+            // @keyframes flash {
+            //     0%,50%,to{opacity:1}
+            //     25%,75%{opacity:0}
+            // }
+            // .animate__flash{
+            //     -webkit-animation-name:flash;
+            //     animation-name:flash;
+            // }
+        }
+        &_title {
+            display: block;
+            color: #fff;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.23;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        &_types {
+            max-width: 440px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            margin-bottom: 20px;
+
+            &-item {
+                display: flex;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.45;
+                letter-spacing: .5px;
+
+                svg {
+                    display: block;
+                    height: auto;
+                    width: 50px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        &_descr {
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.45;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        &_buttons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .btn-fill {
+                margin-right: 20px;
+            }
+        }
+    }
+    &__cards {
+        &_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            // flex-direction: column;
+            -webkit-align-items: flex-start;
+            -ms-flex-align: flex-start;
+            align-items: flex-start;
+        }
+        &_item {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 40px;
+            &-title {
+                display: flex;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.35;
+                text-align: left;
+                margin-bottom: 15px;
+                svg {
+                    width: 50px;
+                    height: auto;
+                    margin-right: 20px;
+                }
+            }
+            &-descr {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 1.45;
+            }
+        }
+    }
+    &__guy {
+        width: 100%;
+        // margin-bottom: -60px;
+        margin-top: -60px;
+        img {
+            display: block;
+            max-width: 80vw;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+}

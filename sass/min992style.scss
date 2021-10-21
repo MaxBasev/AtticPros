@@ -1,0 +1,180 @@
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .btn-side {
+        display: flex;
+    }
+    .menu {
+        &__burger {
+            display: none;
+        }
+        &__wrapper {
+            width: 100%;
+            height: auto;
+
+            left: 0;
+            right: auto;
+            opacity: 1;
+
+            padding: 10px 20px;
+
+            display: grid;
+            // grid-template-columns: repeat(3, auto);
+            grid-template-columns: 2fr 4fr 2fr;
+            column-gap: 10px;
+            align-items: center;
+        }
+        &__logo {
+            padding: 0;
+            margin-bottom: 0;
+            width: 190px;
+        }
+        &__nav {
+            margin-bottom: 0;
+            padding: 0;
+            width: auto;
+            &_item {
+                margin: 0 10px;
+            }
+            &_list {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            &_link {
+                line-height: 1;
+            }
+        }
+        &__right {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            padding: 0;
+            width: auto;
+            &_phone-link {
+                margin: 0 24px;
+                line-height: 2;
+            }
+            &_btn {
+                margin: 0;
+            }
+        }
+    }
+    .cover {
+        &__wrapper {
+            padding-top: 200px;
+            position: relative;
+        }
+        &__main {
+            &_wrapper {
+                max-width: 680px;
+                // min-width: 760px;
+                min-height: calc(100vh - 560px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            &_title {
+                font-size: 64px;
+            }
+        }
+        &__cards {
+            &_item {
+                width: 24%;
+                margin-bottom: 0;
+                &-title {
+                    font-size: 17px;
+                    svg {
+                        width: 70px;
+                        margin-right: 16px;
+                    }
+                }
+                &-descr {
+                    font-size: 17px;
+                }
+            }
+        }
+        &__guy {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 25%;
+            transform: translateX(50%);
+            margin-bottom: 0;
+            width: auto;
+            z-index: 1;
+            img {
+                min-height: 80vh;
+                max-height: 90vh;
+                width: auto;
+            }
+        }
+    }
+    .contractor {
+        &__wrapper {
+            padding: 180px 0;
+        }
+        &__item {
+            width: 22%;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            position: relative;
+        }
+        &__main {
+            width: 50%;
+            padding: 180px 0;
+            .title {
+                text-align: left;
+            }
+        }
+        &__img {
+            position: absolute;
+            height: 100%;
+            width: calc(100vw / 2);
+            // margin-right: calc((100vw - 100%) / 2 * (-1)) ;
+            margin-left: 0;
+            top: 0;
+            right: calc((100vw - 100%) / 2 * (-1)) ;
+        }
+    }
+    .faq {
+        &__wrapper {
+            padding: 180px 0;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+    }
+    .main-question {
+        &__wrapper {
+            padding: 180px 0;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        &__buttons {
+            justify-content: center;
+            .btn-fill {
+                margin-right: 20px;
+            }
+        }
+    }
+    .prefooter {
+        &__title {
+            margin-bottom: 50px;
+        }
+        &__list {
+            flex-wrap: nowrap;
+        }
+        &__item {
+            width: auto;
+            &_wrapper {
+                flex-direction: column;
+            }
+            &_place {
+                padding: 6px 0;
+            }
+        }
+    }
+}

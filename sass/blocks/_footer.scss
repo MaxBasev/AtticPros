@@ -1,0 +1,30 @@
+.footer {
+    background-color: #ebebeb;
+    &__wrapper {
+        width: 100%;
+        padding: 0 0 40px 0;
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+        justify-content: stretch;
+        row-gap: 10px;
+    }
+    &__license, &__copyright {
+        color: $color-violet;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.55;
+        text-align: center;
+    }
+    &__bank-cards {
+        // max-width: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        img {
+            width: 70px;
+            padding: 0 10px;
+        }
+    }
+}

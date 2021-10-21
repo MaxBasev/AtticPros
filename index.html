@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AttivPros</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="stylesheet" href="css/min576style.min.css">
+    <link rel="stylesheet" href="css/min768style.min.css">
+    <link rel="stylesheet" href="css/min992style.min.css">
+    <link rel="stylesheet" href="css/min1200style.min.css"> -->
+    <link rel="stylesheet" href="css/min576style.min.css" media="screen and (min-width: 576px)">
+    <link rel="stylesheet" href="css/min768style.min.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/min992style.min.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="css/min1200style.min.css" media="screen and (min-width: 1200px)">
+</head>
+<body>
+
+    <header class="menu">
+        <div class="menu__burger_wrapper">
+            <div class="menu__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+        <div class="menu__wrapper">
+            <a href="/" class="menu__logo">
+                <img src="img/Attic-Pros-Logo.png" alt="AtticPros Logo">
+            </a>
+            <nav class="menu__nav" id="menu">
+                <ul class="menu__nav_list">
+                    <li class="menu__nav_item"><a href="#home" class="menu__nav_link active">Home</a></li>
+                    <li class="menu__nav_item"><a href="#contractor" class="menu__nav_link">#1 trusted contractor</a></li>
+                    <li class="menu__nav_item"><a href="#advantages" class="menu__nav_link">Why choose us</a></li>
+                    <li class="menu__nav_item"><a href="#faq" class="menu__nav_link">FAQ</a></li>
+                    <li class="menu__nav_item"><a href="#contacts" class="menu__nav_link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="menu__right">
+                <a href="tel:8007885124" class="menu__right_phone-link">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.0406 26.3857 26.7189 25.8856 27.219C25.3855 27.7191 24.7072 28 24 28C18.799 27.684 13.8935 25.4754 10.2091 21.7909C6.52467 18.1065 4.31607 13.201 4 8.00004C4 7.2928 4.28095 6.61452 4.78105 6.11442C5.28115 5.61433 5.95942 5.33337 6.66667 5.33337" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 9.33337C20.7072 9.33337 21.3855 9.61433 21.8856 10.1144C22.3857 10.6145 22.6667 11.2928 22.6667 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    800-788-5124                    
+                </a>
+                <a href="https://widget.zenbooker.com/book/1586144398887x338030909396764860?embed=true" target="_blank" class="btn btn-fill menu__right_btn">Book Free Inspection</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="cover" id="home">
+        <div class="container">
+            <div class="cover__wrapper">
+                <div class="cover__main_wrapper">
+                    <div class="cover__main_reviews animate__animated animate__fadeInUp wow" data-wow-duration=".3s" data-wow-delay=".6s">
+                        <div class="cover__main_reviews-stars">
+                            <svg class="animate__animated animate__flash animate__slow" width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 35.688L12.366 41.804L14.588 28.85L5.17599 19.676L18.184 17.786L24 6L29.816 17.786L42.824 19.676L33.412 28.85L35.634 41.804L24 35.688Z" fill="#FFA500" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg class="animate__animated animate__flash animate__slow " width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 35.688L12.366 41.804L14.588 28.85L5.17599 19.676L18.184 17.786L24 6L29.816 17.786L42.824 19.676L33.412 28.85L35.634 41.804L24 35.688Z" fill="#FFA500" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg class="animate__animated animate__flash animate__slow" width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 35.688L12.366 41.804L14.588 28.85L5.17599 19.676L18.184 17.786L24 6L29.816 17.786L42.824 19.676L33.412 28.85L35.634 41.804L24 35.688Z" fill="#FFA500" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg class="animate__animated animate__flash animate__slow" width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 35.688L12.366 41.804L14.588 28.85L5.17599 19.676L18.184 17.786L24 6L29.816 17.786L42.824 19.676L33.412 28.85L35.634 41.804L24 35.688Z" fill="#FFA500" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg class="animate__animated animate__flash animate__slow" width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 35.688L12.366 41.804L14.588 28.85L5.17599 19.676L18.184 17.786L24 6L29.816 17.786L42.824 19.676L33.412 28.85L35.634 41.804L24 35.688Z" fill="#FFA500" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        4.8 out of 631+ reviews
+                    </div>
+                    <h1 class="cover__main_title animate__animated animate__fadeInDown wow" data-wow-duration=".8s" data-wow-delay="0s">Spray Foam Insulation</h1>
+                    <div class="cover__main_types  animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay=".8s">
+                        <div class="cover__main_types-item">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" aria-labelledby="boltIconTitle" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#e0c6ad">
+                                <title id="boltIconTitle">Bolt</title>
+                                <path d="M5 14l8-11v7h5l-8 11v-7z"/> 
+                            </svg>
+                            Energy Efficiency
+                        </div>
+                        <div class="cover__main_types-item">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 24 24" aria-labelledby="circleOkIconTitle" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#e0c6ad">
+                                <title id="circleOkIconTitle">OK</title>
+                                <polyline points="7 13 10 16 17 9"/>
+                                <circle cx="12" cy="12" r="10"/> 
+                            </svg>
+                            <div class="cover-pros-text t181__descr t-descr t-descr_lg"> </div>
+                            Done Right
+                        </div>
+                    </div>
+                    <div class="cover__main_descr  animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="1.2s">Are you looking for the best way to increase your home's efficiency? Spray foam insulation is a revolutionary product that drastically increases your home's thermic abilities. It works two-fold as a superior insulation product that also helps to seal and stop air from escaping your home or business.</div>
+                    <div class="cover__main_buttons animate__animated animate__fadeIn wow" data-wow-duration=".7s" data-wow-delay="1.6s">
+                        <a href="https://widget.zenbooker.com/book/1586144398887x338030909396764860?embed=true" target="_blank" class="btn btn-fill">Book Free Inspection</a>
+                        <a href="tel:8007885124" class="btn btn-outline">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.0406 26.3857 26.7189 25.8856 27.219C25.3855 27.7191 24.7072 28 24 28C18.799 27.684 13.8935 25.4754 10.2091 21.7909C6.52467 18.1065 4.31607 13.201 4 8.00004C4 7.2928 4.28095 6.61452 4.78105 6.11442C5.28115 5.61433 5.95942 5.33337 6.66667 5.33337" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 9.33337C20.7072 9.33337 21.3855 9.61433 21.8856 10.1144C22.3857 10.6145 22.6667 11.2928 22.6667 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            800-788-5124
+                        </a>
+                    </div>
+                </div>
+                <div class="cover__cards_wrapper">
+                    <div class="cover__cards_item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" >
+                        <div class="cover__cards_item-title">
+                            <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 79L51 22L100 79H88.6667L51 36L13.3333 79H2Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Roofing Spray Foam Insulation
+                        </div>
+                        <div class="cover__cards_item-descr">Keep your conditioned air where it's supposed to be — in&nbsp;your house. High R-value for the win</div>
+                    </div>
+                    <div class="cover__cards_item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" >
+                        <div class="cover__cards_item-title">
+                            <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 79H100L50.9995 22L2 79Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M49.1902 55.4773H42C42.6259 51.7833 45.524 48.8738 49.1902 48.2416V55.4773ZM52.1902 55.4773V48.2416C55.8563 48.8738 58.7544 51.7833 59.3803 55.4773H52.1902ZM52.1902 58.4773H59.3803C58.7544 62.1713 55.8563 65.0809 52.1902 65.7131V58.4773ZM49.1902 58.4773V65.7131C45.524 65.0809 42.6259 62.1713 42 58.4773H49.1902Z" fill="white"/>
+                            </svg>                                
+                            Attic Spray Foam Insulation
+                        </div>
+                        <div class="cover__cards_item-descr">A great insulation and thermal barrier to increase your home's efficiency. Expands and fills joints to seal your property effectively</div>
+                    </div>
+                    <div class="cover__cards_item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" >
+                        <div class="cover__cards_item-title">
+                            <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M58.1428 22.8477H44.8571H31.5714M58.1428 22.8477H71.4285H84.7142M58.1428 22.8477V36.483M31.5714 22.8477V36.483M31.5714 22.8477H18.2857H5V36.483M5 50.1183V36.483M5 50.1183V63.7537M5 50.1183H11.6429M5 36.483H18.2857M84.7142 22.8477L97.9999 22.8477L97.9999 36.483M84.7142 22.8477V36.483M97.9999 50.1183L97.9999 36.483M97.9999 50.1183L98 63.7537M97.9999 50.1183H91.3571M97.9999 36.483H84.7142M98 63.7537L98 77.389H81.8925M98 63.7537H91.3571M5 63.7537V77.389H24.9286M5 63.7537H11.6429M31.5714 36.483H18.2857M31.5714 36.483H44.8571M18.2857 36.483V50.1183M18.2857 50.1183H11.6429M18.2857 50.1183H31.5714H38.2143M58.1428 36.483H44.8571M58.1428 36.483H71.4285M44.8571 36.483V50.1183M44.8571 50.1183H38.2143M44.8571 50.1183H58.1428H64.7857M71.4285 50.1183V36.483M71.4285 50.1183H64.7857M71.4285 50.1183H78.0714H84.7142H91.3571M71.4285 36.483H84.7142M11.6429 50.1183V63.7537M38.2143 50.1183V63.7537M38.2143 63.7537H24.9286M38.2143 63.7537H48.1785H53.1607M11.6429 63.7537H24.9286M64.7857 50.1183V63.7537M24.9286 63.7537V77.389M24.9286 77.389H53.1607M53.1607 63.7537H58.1428H64.7857M53.1607 63.7537V77.389M53.1607 77.389H81.8925M81.8925 63.7537V77.389M81.8925 63.7537H64.7857M81.8925 63.7537H91.3571M91.3571 50.1183V63.7537" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Walls Spray Foam Insulation
+                        </div>
+                        <div class="cover__cards_item-descr">Seal air leaks, Adds structural strength, reduce noices, increase energy efficiency</div>
+                    </div>
+                    <div class="cover__cards_item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" >
+                        <div class="cover__cards_item-title">
+                            <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.00002 37H14.204H16.8059H19.4079H24.6118H29.8158H32.4178H35.0197H40.2237H45.4276H50.6316H93V77H32.4178V67H24.6118V57H16.8059V47H9L9.00002 37Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <line x1="1.5" y1="36.4897" x2="100.5" y2="36.4897" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M76.5 72L76.5 42M76.5 72L82 72M76.5 72L71 72M76.5 42L82 42M76.5 42L71 42" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M53.5 72L53.5 42M53.5 72L59 72M53.5 72L48 72M53.5 42L59 42M53.5 42L48 42" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Crawl Space Spray Foam Insulation
+                        </div>
+                        <div class="cover__cards_item-descr">An excellent choice for your crawl space as it is not subject to mold or mildew like fiberglass</div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="cover__guy"><img src="img/Guy.png" alt="AtticPros Guy"></div>
+    </section>
+
+    <section class="contractor" id="contractor">
+        <div class="container">
+            <div class="contractor__wrapper">
+                <h2 class="title animate__animated animate__fadeInDown wow" data-wow-duration=".7s" data-wow-offset="150">#1 Trusted Contractor</h2>
+                <ul class="contractor__list">
+                    <li class="contractor__item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" data-wow-delay="0.1s" data-wow-offset="150">
+                        <a href="https://www.yelp.com/biz/attic-pros-oakland-8?utm_campaign=search_listing&utm_medium=partnership&utm_source=yahoo" target="_blank" class="contractor__link">
+                            <img src="img/yelp_logo.svg" alt="Yelp Logo">
+                        </a>
+                    </li>
+                    <li class="contractor__item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" data-wow-delay="0.2s" data-wow-offset="150">
+                        <a href="https://www.google.com/search?sxsrf=AOaemvLuPP5c4NtrI_5JkDGFtE5p_L1wNw:1634532978982&q=attic+pros&spell=1&sa=X&ved=2ahUKEwjvotfsldPzAhVjLH0KHRl8AAgQBSgAegQIARAx&biw=1920&bih=912&dpr=1" target="_blank" class="contractor__link">
+                            <img src="img/google-logo.svg" alt="Google Logo">
+                        </a>
+                    </li>
+                    <li class="contractor__item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" data-wow-delay="0.3s" data-wow-offset="150">
+                        <a href="https://www.facebook.com/AtticCleaningPros/reviews/?ref=page_internal" target="_blank" class="contractor__link">
+                            <img src="img/facebook-logo.svg" alt="Facebook Logo">
+                        </a>
+                    </li>
+                    <li class="contractor__item animate__animated animate__fadeInUp wow" data-wow-duration=".7s" data-wow-delay="0.4s" data-wow-offset="150">
+                        <a href="https://www.diamondcertified.org/report/attic-pros-inc/" target="_blank" class="contractor__link">
+                            <img src="img/diamondcertifiedlogo.svg" alt="Diamond Certified Logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="advantages__wrapper">
+                <div class="advantages__main">
+                    <h2 class="title animate__animated animate__fadeInDown wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">Why Choose Us</h2>
+                    <ul class="advantages__main_list">
+                        <li class="advantages__main_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">License</li>
+                        <li class="advantages__main_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">Exceptional customer service</li>
+                        <li class="advantages__main_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">We guarantee your satisfaction</li>
+                        <li class="advantages__main_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">Quality-grade materials and equipment</li>
+                        <li class="advantages__main_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">Quick and efficient turnaround</li>
+                    </ul>
+                    <div class="advantages__main_buttons animate__animated animate__fadeIn wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <a href="https://widget.zenbooker.com/book/1586144398887x338030909396764860?embed=true" target="_blank" class="btn btn-fill">Book Free Inspection</a>
+                        <a href="tel:8007885124" class="btn btn-outline">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.0406 26.3857 26.7189 25.8856 27.219C25.3855 27.7191 24.7072 28 24 28C18.799 27.684 13.8935 25.4754 10.2091 21.7909C6.52467 18.1065 4.31607 13.201 4 8.00004C4 7.2928 4.28095 6.61452 4.78105 6.11442C5.28115 5.61433 5.95942 5.33337 6.66667 5.33337" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 9.33337C20.7072 9.33337 21.3855 9.61433 21.8856 10.1144C22.3857 10.6145 22.6667 11.2928 22.6667 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            800-788-5124
+                        </a>
+                    </div>
+                </div>
+                <div class="advantages__img animate__animated animate__fadeInRight wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq__wrapper">
+                <h2 class="title animate__animated animate__fadeInDown wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">Frequently Asked Questions</h2>
+                <div class="faq__questions">
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">How long you been in business?</div>
+                        <div class="faq__questions_descr">We have been providing 5-star Spray foam insulation services to residential and commercial clients in the San Francisco Bay Area since 2009!</div>
+                    </div>
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">Do you have a license and proof of insurance?</div>
+                        <div class="faq__questions_descr">Yes! Our license number is 1022608.</div>
+                    </div>
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">What’s your experience with projects like mine?</div>
+                        <div class="faq__questions_descr">Each year we service over 2,000 houses. With 12+ years of experience in spray foam insulation, attics, walls, crawl space, new construction.</div>
+                    </div>
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">Is there an on-site project manager?</div>
+                        <div class="faq__questions_descr">There is always a crew leader/manager on-site to answer questions, give briefings and conduct a walkthrough after the job is completed.</div>
+                    </div>
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">How long does it take to complete a service?</div>
+                        <div class="faq__questions_descr">Free Estimate (30min-1hr)<br>
+                            *Attic Spray Insulation installation: 1 days (depends on square ft)<br>
+                            *Crawl Space spray foam insulation installation 1 day<br>
+                            *Walls spray foam insulation 1 day</div>
+                    </div>
+                    <div class="faq__questions_item animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                        <div class="faq__questions_title">Is there a guarantee on the quality of work completed?</div>
+                        <div class="faq__questions_descr">Have peace of mind with our standard 1-Year Craftsmanship Guarantee. In addition, we offer extended warranty options for even better coverage. Call customer service for more details.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-question" id="contacts">
+        <div class="container">
+            <div class="main-question__wrapper">
+                <h2 class="title main-question__title animate__animated animate__fadeInDown wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">What Are You Waiting For!</h2>
+                <div class="main-question__descr animate__animated animate__fadeInLeft wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                    Ever worried about how cold your home might be in the winter, or too hot in the summer? Call Spray Foam Pros today and put spray foam insulation on your to-do list. Spray foam creates a high performance air seal around your property, saves money on your energy bill, and dilutes exterior noises. Whether it be tight crawl spaces, attics, or walls, leave it to the industry leaders of commercial and residential spray foam insulation. If you are ready for a change, give Spray Foam Pros a call at 
+                    <a href="tel:8007885124" class="main-question__phone-link">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.0406 26.3857 26.7189 25.8856 27.219C25.3855 27.7191 24.7072 28 24 28C18.799 27.684 13.8935 25.4754 10.2091 21.7909C6.52467 18.1065 4.31607 13.201 4 8.00004C4 7.2928 4.28095 6.61452 4.78105 6.11442C5.28115 5.61433 5.95942 5.33337 6.66667 5.33337" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 9.33337C20.7072 9.33337 21.3855 9.61433 21.8856 10.1144C22.3857 10.6145 22.6667 11.2928 22.6667 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        800-788-5124
+                    </a>, or fill out our online form for a complimentary inspection.
+                </div>
+                <div class="main-question__buttons animate__animated animate__fadeIn wow" data-wow-duration=".7s" data-wow-delay="0s" data-wow-offset="150">
+                    <a href="https://widget.zenbooker.com/book/1586144398887x338030909396764860?embed=true" target="_blank" class="btn btn-fill">Book Free Inspection</a>
+                    <a href="tel:8007885124" class="btn btn-outline">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.66667 5.33337H12L14.6667 12L11.3333 14C12.7613 16.8954 15.1046 19.2388 18 20.6667L20 17.3334L26.6667 20V25.3334C26.6667 26.0406 26.3857 26.7189 25.8856 27.219C25.3855 27.7191 24.7072 28 24 28C18.799 27.684 13.8935 25.4754 10.2091 21.7909C6.52467 18.1065 4.31607 13.201 4 8.00004C4 7.2928 4.28095 6.61452 4.78105 6.11442C5.28115 5.61433 5.95942 5.33337 6.66667 5.33337" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 9.33337C20.7072 9.33337 21.3855 9.61433 21.8856 10.1144C22.3857 10.6145 22.6667 11.2928 22.6667 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 4C22.1217 4 24.1566 4.84286 25.6569 6.34315C27.1571 7.84344 28 9.87827 28 12" stroke="#97D700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        800-788-5124
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="prefooter">
+        <div class="container">
+            <div class="prefooter__wrapper">
+                <div class="title prefooter__title">Locally Owned and Operated<br>Serving the greater Bay Area</div>
+                <div class="prefooter__list">
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Alameda</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Alameda</div>
+                            <div class="prefooter__item_place">Albany</div>
+                            <div class="prefooter__item_place">Ashland</div>
+                            <div class="prefooter__item_place">Berkeley</div>
+                            <div class="prefooter__item_place">Castro Valley</div>
+                            <div class="prefooter__item_place">Cherryland</div>
+                            <div class="prefooter__item_place">Dublin</div>
+                            <div class="prefooter__item_place">Emeryville</div>
+                            <div class="prefooter__item_place">Fairview</div>
+                            <div class="prefooter__item_place">Fremont</div>
+                            <div class="prefooter__item_place">Hayward</div>
+                            <div class="prefooter__item_place">Livermore</div>
+                            <div class="prefooter__item_place">Newark</div>
+                            <div class="prefooter__item_place">Oakland</div>
+                            <div class="prefooter__item_place">Piedmont</div>
+                            <div class="prefooter__item_place">Pleasanton</div>
+                            <div class="prefooter__item_place">San Leandro</div>
+                            <div class="prefooter__item_place">San Lorenzo</div>
+                            <div class="prefooter__item_place">Union City</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Contra Costa</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Alamo</div>
+                            <div class="prefooter__item_place">Antioch</div>
+                            <div class="prefooter__item_place">Brentwood</div>
+                            <div class="prefooter__item_place">Concord</div>
+                            <div class="prefooter__item_place">Danville</div>
+                            <div class="prefooter__item_place">Discovery Bay</div>
+                            <div class="prefooter__item_place">Lafayette</div>
+                            <div class="prefooter__item_place">Martinez</div>
+                            <div class="prefooter__item_place">Moraga</div>
+                            <div class="prefooter__item_place">Oakley</div>
+                            <div class="prefooter__item_place">Orinda</div>
+                            <div class="prefooter__item_place">Pinole</div>
+                            <div class="prefooter__item_place">Pittsburg</div>
+                            <div class="prefooter__item_place">Pleasant Hill</div>
+                            <div class="prefooter__item_place">Richmond</div>
+                            <div class="prefooter__item_place">Rodeo</div>
+                            <div class="prefooter__item_place">San Pablo</div>
+                            <div class="prefooter__item_place">San Ramon</div>
+                            <div class="prefooter__item_place">Walnut Creek</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Marin</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Larkspur</div>
+                            <div class="prefooter__item_place">Mill Valley</div>
+                            <div class="prefooter__item_place">Novato</div>
+                            <div class="prefooter__item_place">San Anselmo</div>
+                            <div class="prefooter__item_place">San Rafael</div>
+                            <div class="prefooter__item_place">Tamalpais</div>
+                            <div class="prefooter__item_place">Homestea</div>
+                            <div class="prefooter__item_place">Valley</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Napa</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">American Canyon</div>
+                            <div class="prefooter__item_place">Angwin</div>
+                            <div class="prefooter__item_place">Calistoga</div>
+                            <div class="prefooter__item_place">Deer Park</div>
+                            <div class="prefooter__item_place">Napa</div>
+                            <div class="prefooter__item_place">Oakville</div>
+                            <div class="prefooter__item_place">Rutherford</div>
+                            <div class="prefooter__item_place">Silverado Resort</div>
+                            <div class="prefooter__item_place">St. Helena</div>
+                            <div class="prefooter__item_place">Yountville</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">San Francisco</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">The one and only!</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">San Mateo</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Belmont</div>
+                            <div class="prefooter__item_place">Burlingame</div>
+                            <div class="prefooter__item_place">Daly City</div>
+                            <div class="prefooter__item_place">East Palo Alto</div>
+                            <div class="prefooter__item_place">Foster City</div>
+                            <div class="prefooter__item_place">Discovery Bay</div>
+                            <div class="prefooter__item_place">Half Moon Bay</div>
+                            <div class="prefooter__item_place">Hillsborough</div>
+                            <div class="prefooter__item_place">Menlo Park</div>
+                            <div class="prefooter__item_place">Millbrae</div>
+                            <div class="prefooter__item_place">North Fair Oaks</div>
+                            <div class="prefooter__item_place">Pacifica</div>
+                            <div class="prefooter__item_place">Redwood City</div>
+                            <div class="prefooter__item_place">San Bruno</div>
+                            <div class="prefooter__item_place">San Carlos</div>
+                            <div class="prefooter__item_place">San Mateo</div>
+                            <div class="prefooter__item_place">South San Francisco</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Santa Clara</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Alum Rock</div>
+                            <div class="prefooter__item_place">Campbell</div>
+                            <div class="prefooter__item_place">Cupertino</div>
+                            <div class="prefooter__item_place">Gilroy</div>
+                            <div class="prefooter__item_place">Los Altos</div>
+                            <div class="prefooter__item_place">Los Gatos</div>
+                            <div class="prefooter__item_place">Milpitas</div>
+                            <div class="prefooter__item_place">Morgan Hill</div>
+                            <div class="prefooter__item_place">Mountain View</div>
+                            <div class="prefooter__item_place">Palo Alto</div>
+                            <div class="prefooter__item_place">San Jose</div>
+                            <div class="prefooter__item_place">Santa Clara</div>
+                            <div class="prefooter__item_place">Saratoga</div>
+                            <div class="prefooter__item_place">Stanford</div>
+                            <div class="prefooter__item_place">Sunnyvale</div>
+                            <div class="prefooter__item_place">San Mateo</div>
+                        </div>
+                    </div>
+                    <div class="prefooter__item">
+                        <div class="prefooter__item_title">Solano</div>
+                        <div class="prefooter__item_wrapper">
+                            <div class="prefooter__item_place">Benicia</div>
+                            <div class="prefooter__item_place">Dixon</div>
+                            <div class="prefooter__item_place">Fairfield</div>
+                            <div class="prefooter__item_place">Suisun City</div>
+                            <div class="prefooter__item_place">Vacaville</div>
+                            <div class="prefooter__item_place">Vallejo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__license">License# 1022608</div>
+                <div class="footer__copyright">©2021 AtticPros, Inc.</div>
+                <div class="footer__bank-cards">
+                    <img src="icons/visa-icon.svg" alt="Visa Card">
+                    <img src="icons/mastercard-icon.svg" alt="Mastercard">
+                    <img src="icons/amex-icon.svg" alt="Amex Card">
+                    <img src="icons/discover-icon.svg" alt="Discover Card">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://widget.zenbooker.com/book/1586144398887x338030909396764860?embed=true" target="_blank" class="btn btn-fill btn-side animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="2s" data-wow-offset="150">Book Free Inspection</a>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+
+    <script>
+        $(function() {
+            $('a[href*="#"]').smoothscroll({
+                duration:  400
+            });
+        });
+    </script>
+    
+    <script>new WOW().init();</script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

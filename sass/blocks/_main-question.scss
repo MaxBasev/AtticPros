@@ -1,0 +1,38 @@
+.main-question {
+    background-color: $color-violet;
+    &__wrapper {
+        padding: 80px 0;
+    }
+    &__title {
+        color: #fff;
+        font-size: 36px;
+    }
+    &__descr {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.4;
+
+        max-width: 960px;
+
+        margin-bottom: 60px;
+    }
+    &__phone-link {
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 600;
+        padding: 5px;
+        svg {
+            margin-bottom: -8px;
+            path {
+                stroke: #fff;
+            }
+        }
+    }
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

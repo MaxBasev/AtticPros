@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .cover {
+        &__main {
+            &_wrapper {
+                max-width: 600px;
+            }
+            &_types {
+                max-width: 500px;
+                margin-bottom: 40px;
+                &-item {
+                    font-size: 24px;
+                }
+            }
+            &_descr {
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .contractor, .faq {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../img/pexels-henry-&-co-1939485-horizontal.jpg');
+    }
+    .advantages {
+        &__img {
+            background-position: 0 0 ;
+        }
+    }
+    .prefooter {
+        &__list {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &__item {
+            width: 45%;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 3fr 2fr 3fr;
+            grid-template-rows: 40px;
+            // align-items: flex-end;
+            justify-content: start;
+        }
+        &__copyright {
+            justify-self: start;
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+        &__license {
+            justify-self: center;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        &__bank-cards {
+            justify-self: flex-end;
+            grid-column-start: 3;
+            grid-row-start: 1;
+            padding-top: 0;
+            img {
+                width: 50px;
+                padding: 0 5px;
+            }
+        }
+
+    }
+}
